@@ -135,7 +135,7 @@ const Work = () => {
                 <a href="https://arturolopez.tech/">
                   <button className=" px-2 btn">View live</button>
                 </a>
-                <a href="https://github.com/arturolopm/not-your-artist">
+                <a href="https://github.com/arturolopm/portfolio">
                   <button className=" px-2 btn">Source Code</button>
                 </a>
               </div>
