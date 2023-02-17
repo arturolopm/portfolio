@@ -46,7 +46,7 @@ const About = () => {
             {/* tech */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
-                <div className="text-[20px] h-24 font-tertiary text-gradient mb-2 gap-6">
+                <div className="text-[20px] h-32 lg:h-24 font-tertiary text-gradient mb-2 gap-6">
                   {InView && (
                     <>
                       <CountUp
@@ -73,6 +73,8 @@ const About = () => {
                           " - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT",
                           307,
                           " - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT GITHUB",
+                          307,
+                          " - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT GITHUB GITHUB-PAGES",
                           307,
                           " - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT GITHUB GITHUB-PAGES LINUX",
                           307,

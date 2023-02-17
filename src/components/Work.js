@@ -47,20 +47,22 @@ const Work = () => {
                 alt=""
               />
               {/* tittle */}
-              <div className=" absolute -bottom-full left-12 group-hover:bottom-60 transition-all duration-500 z-40">
+              <div className="  absolute -bottom-full left-12 group-hover:bottom-32 lg:group-hover:bottom-48 transition-all duration-500 z-40">
                 <span className=" text-gradient">UI/UX Design</span>
               </div>
               {/* Title */}
-              <div className=" absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-40">
-                <span className=" text-3xl text-white">E-Commerce</span>
-                <p className=" text-base text-white">
+              <div className=" absolute -bottom-full left-12 group-hover:bottom-12 lg:group-hover:bottom-16 transition-all duration-700 z-40">
+                <span className=" text-base md:text-xl font-bold text-white">
+                  E-Commerce
+                </span>
+                <p className=" text-xs md:text-base text-white">
                   React and Tailwind Application to register, log in,search and
                   look for products, all fetching to an API, and allows users to
                   finish the purchase through Paypal API on NA and through
                   MercadoPago API on Latam{" "}
                 </p>
               </div>
-              <div className=" flex gap-x-10 absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-900 z-40">
+              <div className=" text-sm md:text-lg flex gap-x-10 absolute -bottom-full left-12 group-hover:bottom-2 lg:group-hover:bottom-6 transition-all duration-900 z-40">
                 <a href="https://www.sunquwan.com/">
                   <button className=" px-2 btn">View live</button>
                 </a>
@@ -87,20 +89,22 @@ const Work = () => {
                 alt=""
               />
               {/* tittle */}
-              <div className=" absolute -bottom-full left-12 group-hover:bottom-60 transition-all duration-500 z-40">
+              <div className=" absolute -bottom-full left-12 group-hover:bottom-32 lg:group-hover:bottom-48 transition-all duration-500 z-40">
                 <span className=" text-gradient">UI/UX Design</span>
               </div>
               {/* Title */}
-              <div className=" absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-40">
-                <span className=" text-3xl text-white">Not your artist</span>
-                <p className=" text-base text-white">
+              <div className=" absolute -bottom-full left-12 group-hover:bottom-12 lg:group-hover:bottom-16 transition-all duration-700 z-40">
+                <span className=" text-base font-bold md:text-xl text-white">
+                  Not your artist
+                </span>
+                <p className=" text-xs md:text-base text-white">
                   React and Tailwind Application to discover new artist and
                   music, it takes a base artist of your preference and returns a
                   set of songs that you definetly should hear from other 15
                   artist, all fetching Spotify's API
                 </p>
               </div>
-              <div className=" flex gap-x-10 absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-900 z-40">
+              <div className=" text-sm md:text-lg flex gap-x-10 absolute -bottom-full left-12 group-hover:bottom-2 lg:group-hover:bottom-6 transition-all duration-900 z-40">
                 <a href="https://arturolopm.github.io/not-your-artist/">
                   <button className=" px-2 btn">View live</button>
                 </a>
@@ -120,18 +124,20 @@ const Work = () => {
                 alt=""
               />
               {/* tittle */}
-              <div className=" absolute -bottom-full left-12 group-hover:bottom-60 transition-all duration-500 z-40">
+              <div className=" absolute -bottom-full left-12 group-hover:bottom-32 lg:group-hover:bottom-48 transition-all duration-500 z-40">
                 <span className=" text-gradient">UI/UX Design</span>
               </div>
               {/* Title */}
-              <div className=" absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-40">
-                <span className=" text-3xl text-white">Portfolio</span>
-                <p className=" text-base text-white">
+              <div className=" absolute -bottom-full left-12 group-hover:bottom-12 lg:group-hover:bottom-16 transition-all duration-700 z-40">
+                <span className=" text-base font-bold md:text-xl text-white">
+                  Portfolio
+                </span>
+                <p className=" text-xs md:text-base text-white">
                   React and Tailwind project to show some of my recent work and
                   style in case that you would like to work with me.
                 </p>
               </div>
-              <div className=" flex gap-x-10 absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-900 z-40">
+              <div className=" text-sm md:text-lg flex gap-x-10 absolute -bottom-full left-12 group-hover:bottom-2 lg:group-hover:bottom-6 transition-all duration-900 z-40">
                 <a href="https://arturolopez.tech/">
                   <button className=" px-2 btn">View live</button>
                 </a>
