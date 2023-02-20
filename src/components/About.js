@@ -95,7 +95,12 @@ const About = () => {
               </div>
             </div>
             <div className=" flex gap-x-8 items-center">
-              <button className=" btn btn-lg">Get My Resume</button>
+              <a
+                href="https://drive.google.com/file/d/1KY1YpkFUsYNgAgIIVCBSZMxRw0L5g7Gn/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer">
+                <button className=" btn btn-lg">Get My Resume</button>
+              </a>
               <Link
                 to="work"
                 smooth={true}
