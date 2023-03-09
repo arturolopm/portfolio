@@ -119,11 +119,11 @@ const Banner = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
             className="   relative max-w-[320px] lg:max-w-[482px] hidden justify-center lg:flex flex-1 mb-6  text-[36px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1]">
-            <GiPlainCircle className="absolute text-gradient btn  mx-8 -top-32  text-[320px] lg:text-[482px]" />
+            <GiPlainCircle className="absolute text-gradient btn  mx-8 translate-x-[0%] -top-28  text-[320px] lg:text-[482px]" />
             <TypeAnimation
               sequence={["I turn coffee into code"]}
               speed={2}
-              className=" text-white z-10 max-w-[180px] h-80  "
+              className="  text-white z-10 top-2 max-w-[180px] h-80  "
               wrapper="span"
               repeat={0}
             />

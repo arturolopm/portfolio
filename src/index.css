@@ -68,4 +68,13 @@
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
+  .image {
+    @apply w-[25vmin] absolute translate-y-[-50%] translate-x-[-50%];
+  }
+  .image[data-status="inactive"] {
+    @apply hidden;
+  }
+  .image[data-status="active"] {
+    @apply block;
+  }
 }
