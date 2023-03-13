@@ -14,9 +14,9 @@ const App = () => {
     <div className=" flex flex-col gap-y-4 bg-site bg-no-repeat bg-cover overflow-hidden">
       <Header />
       <Banner />
-      <Images />
       <Nav />
       <About />
+      <Images />
       <Services />
       <Work />
       <Contact />
