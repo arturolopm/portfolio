@@ -1,26 +1,12 @@
-// import { useRef } from "react";
+import { useState, useRef } from "react";
 import h from "../assets/h.jpg";
 import i from "../assets/i.jpg";
 import r from "../assets/r.jpg";
 import e from "../assets/e.jpg";
 import m from "../assets/m.jpg";
 import e2 from "../assets/e2.jpg";
-// import { useState } from "react";
+
 const Images = () => {
-  //   const ref = useRef(null);
-  //   const images = ref.current;
-  //   let globalIndex = 0;
-
-  //   const activate = (image, x, y) => {
-  //     image.style.left = `${x}px`;
-  //     image.style.top = `${y}px`;
-  //     image.dataset.status = "active";
-  //   };
-
-  //   const handleMove = (e) => {
-  //     const lead = images[globalIndex];
-  //     activate(lead, e.clientX, e.clientY);
-  //   };
   const images = document.getElementsByClassName("image");
 
   let globalIndex = 0,
@@ -54,10 +40,15 @@ const Images = () => {
         // onMouseMove={(e) => handleMove(e)}
 
         id="images"
-        className=" relative bg-[#0A0A0A] h-screen m-0 overflow-hidden">
+        className=" hidden lg:block relative bg-[#0A0A0A] h-screen m-0 overflow-hidden">
+        <div className="text-gradient flex">
+          <p className=" mx-auto mt-2">
+            Move your mouse and find the secret message
+          </p>
+        </div>
         <img
           src={h}
-          alt=""
+          alt="letter h"
           //  ref={ref}
           className="image"
           data-index="0"
@@ -66,7 +57,7 @@ const Images = () => {
 
         <img
           src={i}
-          alt=""
+          alt="letter i"
           //   ref={ref}
           className="image"
           data-index="1"
@@ -74,7 +65,7 @@ const Images = () => {
         />
         <img
           src={r}
-          alt=""
+          alt="letter r"
           //   ref={ref}
           className="image"
           data-index="2"
@@ -82,7 +73,7 @@ const Images = () => {
         />
         <img
           src={e}
-          alt=""
+          alt="letter e"
           //   ref={ref}
           className="image"
           data-index="3"
@@ -90,7 +81,7 @@ const Images = () => {
         />
         <img
           src={m}
-          alt=""
+          alt="letter m"
           //   ref={ref}
           className="image"
           data-index="4"
@@ -98,7 +89,7 @@ const Images = () => {
         />
         <img
           src={e2}
-          alt=""
+          alt="letter e2"
           //   ref={ref}
           className="image"
           data-index="5"
@@ -106,7 +97,7 @@ const Images = () => {
         />
         <img
           src={h}
-          alt=""
+          alt="letter h"
           //  ref={ref}
           className="image"
           data-index="6"
@@ -114,7 +105,7 @@ const Images = () => {
         />
         <img
           src={i}
-          alt=""
+          alt="letter i"
           //   ref={ref}
           className="image"
           data-index="7"
@@ -122,7 +113,7 @@ const Images = () => {
         />
         <img
           src={r}
-          alt=""
+          alt="letter r"
           //   ref={ref}
           className="image"
           data-index="8"
@@ -130,7 +121,7 @@ const Images = () => {
         />
         <img
           src={e}
-          alt=""
+          alt="letter e"
           //   ref={ref}
           className="image"
           data-index="9"
@@ -138,7 +129,7 @@ const Images = () => {
         />
         <img
           src={m}
-          alt=""
+          alt="letter m"
           //   ref={ref}
           className="image"
           data-index="10"
@@ -146,7 +137,7 @@ const Images = () => {
         />
         <img
           src={e2}
-          alt=""
+          alt="letter e2"
           //   ref={ref}
           className="image"
           data-index="11"
