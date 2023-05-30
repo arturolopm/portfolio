@@ -6,7 +6,7 @@ import { fadeIn } from "../variants";
 
 import Img1 from "../assets/portfolio-imgage1.png";
 import Img2 from "../assets/portfolio-image2.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img3 from "../assets/displayImg.png";
 
 const Work = () => {
   return (
@@ -130,20 +130,21 @@ const Work = () => {
               {/* Title */}
               <div className=" absolute -bottom-full left-12 group-hover:bottom-12 lg:group-hover:bottom-16 transition-all duration-700 z-40">
                 <span className=" text-base font-bold md:text-xl text-white">
-                  Portfolio
+                  MyJou
                 </span>
                 <p className=" text-xs md:text-base text-white">
-                  React and Tailwind project to show some of my recent work and
-                  style in case that you would like to work with me.
+                  Under development MERN application that will help you achieve
+                  goals by measuring your progress and pairing you with people
+                  just like you to give and receive valuable feedback
                 </p>
               </div>
               <div className=" text-sm md:text-lg flex gap-x-10 absolute -bottom-full left-12 group-hover:bottom-2 lg:group-hover:bottom-6 transition-all duration-900 z-40">
-                <a href="https://arturolopez.tech/">
+                <a href="https://myjou.arturolopez.tech/">
                   <button className=" px-2 btn">View live</button>
                 </a>
-                <a href="https://github.com/arturolopm/portfolio">
+                {/* <a href="https://github.com/arturolopm/portfolio">
                   <button className=" px-2 btn">Source Code</button>
-                </a>
+                </a> */}
               </div>
             </div>
           </motion.div>
