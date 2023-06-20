@@ -133,13 +133,13 @@ const Work = () => {
                   MyJou
                 </span>
                 <p className=" text-xs md:text-base text-white">
-                  Under development MERN application that will help you achieve
-                  goals by measuring your progress and pairing you with people
-                  just like you to give and receive valuable feedback
+                  MERN application that will help you achieve goals by measuring
+                  your progress and pairing you with people just like you to
+                  give and receive valuable feedback
                 </p>
               </div>
               <div className=" text-sm md:text-lg flex gap-x-10 absolute -bottom-full left-12 group-hover:bottom-2 lg:group-hover:bottom-6 transition-all duration-900 z-40">
-                <a href="https://myjou.arturolopez.tech/">
+                <a href="https://myjou.tech/">
                   <button className=" px-2 btn">View live</button>
                 </a>
                 {/* <a href="https://github.com/arturolopm/portfolio">

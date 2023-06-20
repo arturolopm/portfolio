@@ -96,7 +96,7 @@ const About = () => {
             </div>
             <div className=" flex gap-x-8 items-center">
               <a
-                href="https://docs.google.com/document/d/1R9Hth0lbxBh0WXAjOXR7shTbt2GulknR/edit?usp=sharing&ouid=116267984285797015531&rtpof=true&sd=true"
+                href="https://drive.google.com/file/d/1G12RpoQWiMPjz8Xp_PZJ2GtAYwpso9Mq/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer">
                 <button className=" btn btn-lg">Get My Resume</button>
