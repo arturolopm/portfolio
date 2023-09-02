@@ -1,42 +1,45 @@
-import React from "react";
+import React from 'react';
 
-import CountUp from "react-countup";
-import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
-import { TypeAnimation } from "react-type-animation";
-import { Link } from "react-scroll";
+import CountUp from 'react-countup';
+import { useInView } from 'react-intersection-observer';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../variants';
+import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-scroll';
 
 const About = () => {
   const [ref, InView] = useInView({
-    threshold: 0.5,
+    threshold: 0.5
   });
 
   return (
     <section
-      className="section "
-      id="about"
-      ref={ref}>
-      <div className="container mx-auto">
-        <div className=" flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 ">
+      className='section '
+      id='about'
+      ref={ref}
+    >
+      <div className='container mx-auto'>
+        <div className=' flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 '>
           {/* image */}
           <motion.div
-            variants={fadeIn("right", 0.3)}
-            initial="hidden"
-            whileInView={"show"}
+            variants={fadeIn('right', 0.3)}
+            initial='hidden'
+            whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className=" hidden lg:flex flex-1 bg-about1 bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"></motion.div>
+            className=' hidden lg:flex flex-1 bg-about1 bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'
+          ></motion.div>
 
           {/* description */}
           <motion.div
-            variants={fadeIn("left", 0.5)}
-            initial="hidden"
-            whileInView={"show"}
+            variants={fadeIn('left', 0.5)}
+            initial='hidden'
+            whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className=" flex-1">
-            <h2 className=" h2 text-accent">About me</h2>
-            <h3 className="h3 mb-4">I am a Software Developer</h3>
-            <p className=" mb-6">
+            className=' flex-1'
+          >
+            <h2 className=' h2 text-accent'>About me</h2>
+            <h3 className='h3 mb-4'>I am a Software Developer</h3>
+            <p className=' mb-6'>
               I like to work with technology and experiment a lot with better
               ways of make the things, I love to code solutions and I am a DSA
               enthusiast. Please look trough some of my my work below and tell
@@ -44,9 +47,9 @@ const About = () => {
             </p>
 
             {/* tech */}
-            <div className="flex gap-x-6 lg:gap-x-10 mb-12">
+            <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
-                <div className="text-[20px] h-32 lg:h-24 font-tertiary text-gradient mb-2 gap-6">
+                <div className='text-[20px] h-32 lg:h-24 font-tertiary text-gradient mb-2 gap-6'>
                   {InView && (
                     <>
                       <CountUp
@@ -56,56 +59,58 @@ const About = () => {
                       />
                       <TypeAnimation
                         sequence={[
-                          " - HTML",
+                          ' - HTML',
                           307,
-                          " - HTML CSS3",
+                          ' - HTML CSS3',
                           307,
-                          " - HTML CSS3 REACT",
+                          ' - HTML CSS3 REACT',
                           307,
-                          " - HTML CSS3 REACT TAILWIND",
+                          ' - HTML CSS3 REACT TAILWIND',
                           307,
-                          " - HTML CSS3 REACT TAILWIND NODE",
+                          ' - HTML CSS3 REACT TAILWIND NODE',
                           307,
-                          " - HTML CSS3 REACT TAILWIND NODE EXPRESS",
+                          ' - HTML CSS3 REACT TAILWIND NODE EXPRESS',
                           307,
-                          " - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB",
+                          ' - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB',
                           307,
-                          " - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT",
+                          ' - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT',
                           307,
-                          " - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT GITHUB",
+                          ' - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT GITHUB',
                           307,
-                          " - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT GITHUB GITHUB-PAGES",
+                          ' - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT GITHUB GITHUB-PAGES',
                           307,
-                          " - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT GITHUB GITHUB-PAGES LINUX",
+                          ' - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT GITHUB GITHUB-PAGES LINUX',
                           307,
-                          " - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT GITHUB GITHUB-PAGES LINUX HOSTINGER",
-                          307,
+                          ' - HTML CSS3 REACT TAILWIND NODE EXPRESS MONGODB GIT GITHUB GITHUB-PAGES LINUX HOSTINGER',
+                          307
                         ]}
                         speed={90}
-                        className=" text-accent"
-                        wrapper="span"
+                        className=' text-accent'
+                        wrapper='span'
                         repeat={0}
                       />
                     </>
                   )}
                 </div>
-                <div className="font-primary text-sm tracking-[2px]">
+                <div className='font-primary text-sm tracking-[2px]'>
                   Technologies stack
                 </div>
               </div>
             </div>
-            <div className=" flex gap-x-8 items-center">
+            <div className=' flex gap-x-8 items-center'>
               <a
-                href="https://drive.google.com/file/d/1G12RpoQWiMPjz8Xp_PZJ2GtAYwpso9Mq/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer">
-                <button className=" btn btn-lg">Get My Resume</button>
+                href='https://drive.google.com/file/d/1CUEmCnDOpBAjZ-OxTlj9e1mJm_7TVlkN/view?usp=sharing'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <button className=' btn btn-lg'>Get My Resume</button>
               </a>
               <Link
-                to="work"
+                to='work'
                 smooth={true}
                 spy={true}
-                className=" cursor-pointer text-gradient btn-link">
+                className=' cursor-pointer text-gradient btn-link'
+              >
                 My portfolio
               </Link>
             </div>
